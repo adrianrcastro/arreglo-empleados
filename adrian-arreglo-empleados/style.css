@@ -1,0 +1,20 @@
+body {
+    background-color: #7171ff;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+tr th, td {
+    font-size: 18px;
+}
+
+tr th {
+    text-transform: uppercase;
+}
+
+td {
+    font-weight: 600;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Arreglos Asociativos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <h1 align="center">Arreglos Asociativos</h1>
+
+    <br>
+    <br>
+    <div class="container">
+        <form method="POST" action="empleados.php">
+            <h3>Primer empleado</h3>
+            <br>
+                <div class="row">
+                  <div class="col-sm">
+                   
+                        <input class="form-control" type="text" name="nombre1" required placeholder="Ingrese nombre">
+
+                    <br>
+                        <input class="form-control" type="text" name="apellido1" required placeholder="Ingrese apellido">
+
+                  <br>
+                        <input class="form-control" type="number"  name="cedula1" required min="1" pattern="^[0-9]+" placeholder="Ingrese cedula">
+                   
+                  </div>
+
+                  <div class="col-sm">
+                        <input class="form-control" type="number" name="sueldo1" required min="1" pattern="^[0-9]+" placeholder="Ingrese sueldo">
+                    
+                    <br>
+                        <input class="form-control" type="text" name="departamento1" required placeholder="Ingrese departamento">
+
+                    <br>
+                        <input class="form-control" type="text" name="lugar1" required placeholder="Ingrese lugar de trabajo">
+                    <br>
+                   
+                  </div>
+
+            <h3>Segundo empleado</h3>
+
+            <div class="row">
+                <div class="col-sm">
+                    <br>
+                        <input class="form-control" type="text" name="nombre2" required placeholder="Ingrese nombre">
+
+                    <br>
+                        <input class="form-control" type="text" name="apellido2" required placeholder="Ingrese apellido">
+
+                    <br>
+                        <input class="form-control" type="number"  name="cedula2" required min="1" pattern="^[0-9]+" placeholder="Ingrese cedula">
+                </div>
+
+                <div class="col-sm">
+                    <br>
+                        <input class="form-control" type="number" name="sueldo2" required min="1" pattern="^[0-9]+" placeholder="Ingrese sueldo">
+
+                    <br>
+                        <input class="form-control" type="text" name="departamento2" required placeholder="Ingrese departamento">
+
+                    <br>
+                        <input class="form-control" type="text" name="lugar2" required placeholder="Ingrese lugar de trabajo">
+                        <br>
+                </div>
+
+          <h3>Tercer empleado</h3>
+          <div class="row">
+              <div class="col-sm">
+                <br>
+                    <input class="form-control" type="text" name="nombre3" required placeholder="Ingrese nombre">
+
+                <br>
+                    <input class="form-control" type="text" name="apellido3" required placeholder="Ingrese apellido">
+
+                <br>
+                    <input class="form-control" type="number"  name="cedula3" required min="1" pattern="^[0-9]+" placeholder="Ingrese cedula ">
+                
+              </div>
+
+              <div class="col-sm">
+                <br>
+                    <input class="form-control" type="number" name="sueldo3" required min="1" pattern="^[0-9]+" placeholder="Ingrese sueldo">
+
+                <br>
+                    <input class="form-control" type="text" name="departamento3" required placeholder="Ingrese departamento">
+               
+                <br>
+                    <input class="form-control" type="text" name="lugar3" required placeholder="Ingrese lugar de trabajo">
+                    <br>
+              </div>
+        
+                <div class="row" align="center">
+                    <div class="col-lg">
+                        <input class="btn btn-success" type="submit" name="btn" value="Cargar">
+                        <input class="btn btn-danger" type="reset" name="limpiar" value="Limpiar"> 
+                        <br> <br>
+                    </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
